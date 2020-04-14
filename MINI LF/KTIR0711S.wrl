@@ -1,0 +1,4031 @@
+#VRML V2.0 utf8
+Shape {
+appearance DEF TEX_Blacktop_New Appearance {
+material Material {}
+texture ImageTexture {
+url ["Blacktop_New.jpg"]
+}
+}
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+0.039 0.067 0.059,
+0.039 0.067 0,
+-0.053 0.067 0,
+-0.053 0.067 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.001 -0.001,
+-0.001 -0,
+-0.002 -0,
+-0.002 -0.001,
+]
+}
+}
+}
+Shape {
+appearance DEF COL_BackColor Appearance {
+material Material { diffuseColor 0.643 0.698 0.733 }
+}
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+-0.053 0.067 0.059,
+-0.053 0.067 0,
+0.039 0.067 0,
+0.039 0.067 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.053 0 0,
+-0.053 -0.026 0,
+-0.053 -0.026 0.006,
+-0.053 -0.045 0.006,
+-0.053 -0.045 0,
+-0.053 -0.067 0,
+-0.053 -0.067 0.059,
+-0.053 0.067 0.059,
+-0.053 0.067 0,
+-0.053 0.045 0,
+-0.053 0.045 0.006,
+-0.053 0.026 0.006,
+-0.053 0.026 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+-1
+]
+texCoord TextureCoordinate {
+point [
+0.008 -0,
+0.008 -0,
+0.008 -0.001,
+0.008 -0.001,
+0.008 -0,
+0.008 -0,
+0.008 -0.001,
+0.009 -0.001,
+0.009 -0,
+0.009 -0,
+0.009 -0.001,
+0.008 -0.001,
+0.008 -0,
+]
+}
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.053 0.026 0,
+-0.053 0.026 0.006,
+-0.053 0.045 0.006,
+-0.053 0.045 0,
+-0.053 0.067 0,
+-0.053 0.067 0.059,
+-0.053 -0.067 0.059,
+-0.053 -0.067 0,
+-0.053 -0.045 0,
+-0.053 -0.045 0.006,
+-0.053 -0.026 0.006,
+-0.053 -0.026 0,
+-0.053 0 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+-1
+]
+}
+}
+Shape {
+appearance DEF TEX_Metal_Corrugated_Shiny Appearance {
+material Material {}
+texture ImageTexture {
+url ["Metal_Corrugated_Shiny.jpg"]
+}
+}
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.089 0.026 0,
+-0.053 0.026 0,
+-0.053 0.026 0.006,
+-0.089 0.026 0.006,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+texCoord TextureCoordinate {
+point [
+0.058 -0.015,
+0.049 -0.015,
+0.049 -0.016,
+0.058 -0.016,
+]
+}
+}
+}
+Shape {
+appearance DEF COL_FrontColor Appearance {
+material Material { diffuseColor 1 1 1 }
+}
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.089 0.026 0,
+-0.053 0.026 0,
+-0.053 0.045 0,
+-0.089 0.045 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.089 0.045 0,
+-0.053 0.045 0,
+-0.053 0.026 0,
+-0.089 0.026 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE TEX_Metal_Corrugated_Shiny
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.053 0.045 0,
+-0.089 0.045 0,
+-0.089 0.045 0.006,
+-0.053 0.045 0.006,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.049 -0.015,
+-0.058 -0.015,
+-0.058 -0.016,
+-0.049 -0.016,
+]
+}
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.053 0.045 0.006,
+-0.089 0.045 0.006,
+-0.089 0.045 0,
+-0.053 0.045 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE TEX_Metal_Corrugated_Shiny
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.089 0.026 0.006,
+-0.053 0.026 0.006,
+-0.053 0.045 0.006,
+-0.089 0.045 0.006,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.058 0.252,
+-0.049 0.252,
+-0.049 0.257,
+-0.058 0.257,
+]
+}
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.089 0.045 0.006,
+-0.053 0.045 0.006,
+-0.053 0.026 0.006,
+-0.089 0.026 0.006,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_FrontColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.053 0.045 0,
+-0.053 0.026 0,
+-0.053 0.026 0.006,
+-0.053 0.045 0.006,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_FrontColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.053 0.026 0,
+-0.053 0 0,
+0.053 0 0,
+0.053 0.026 0,
+0.053 0.045 0,
+0.053 0.052 0,
+0.039 0.067 0,
+-0.053 0.067 0,
+-0.053 0.045 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+4
+5
+6
+7
+8
+-1
+]
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.053 0.045 0,
+-0.053 0.067 0,
+0.039 0.067 0,
+0.053 0.052 0,
+0.053 0.045 0,
+0.053 0.026 0,
+0.053 0 0,
+-0.053 0 0,
+-0.053 0.026 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+4
+5
+6
+7
+8
+-1
+]
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+0.039 0.067 0.059,
+0.053 0.052 0.059,
+0.053 0.052 0,
+0.039 0.067 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.007 -0.001,
+-0.007 -0.001,
+-0.007 -0,
+-0.007 -0,
+]
+}
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+0.039 0.067 0.059,
+0.039 0.039 0.059,
+0.053 0.052 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.001 0.009,
+-0.001 0.009,
+-0.001 0.009,
+]
+}
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+0.039 0.067 0.059,
+0.026 0.053 0.059,
+0.039 0.039 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.001 0.009,
+-0.001 0.009,
+-0.001 0.009,
+]
+}
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+0.039 0.067 0.059,
+-0.039 0.053 0.059,
+0.026 0.053 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.001 0.009,
+-0.002 0.009,
+-0.001 0.009,
+]
+}
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+-0.053 0.067 0.059,
+-0.039 0.053 0.059,
+0.039 0.067 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.002 0.009,
+-0.002 0.009,
+-0.001 0.009,
+]
+}
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+-0.039 0.053 0.059,
+-0.053 0.067 0.059,
+-0.039 -0.053 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.002 0.009,
+-0.002 0.009,
+-0.002 0.008,
+]
+}
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+0.039 0.067 0.059,
+-0.039 0.053 0.059,
+-0.053 0.067 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+0.026 0.053 0.059,
+-0.039 0.053 0.059,
+0.039 0.067 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.026 0.053 0.059,
+-0.039 0.053 0.059,
+-0.039 0.053 0.055,
+0.026 0.053 0.055,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+texCoord TextureCoordinate {
+point [
+0.001 -0.001,
+0.002 -0.001,
+0.002 -0.001,
+0.001 -0.001,
+]
+}
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.026 0.053 0.055,
+-0.039 0.053 0.055,
+-0.039 0.053 0.059,
+0.026 0.053 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.039 0.053 0.055,
+-0.039 0.006 0.055,
+0.039 0.006 0.055,
+0.039 0.039 0.055,
+0.026 0.053 0.055,
+]
+}
+coordIndex [
+0
+1
+2
+3
+4
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.002 0.009,
+-0.002 0.008,
+-0.001 0.008,
+-0.001 0.009,
+-0.001 0.009,
+]
+}
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.039 0.053 0.059,
+-0.039 0.006 0.059,
+-0.039 0.006 0.055,
+-0.039 0.053 0.055,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.009 -0.001,
+-0.008 -0.001,
+-0.008 -0.001,
+-0.009 -0.001,
+]
+}
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+-0.039 0.053 0.059,
+-0.039 -0.006 0.059,
+-0.039 0.006 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.002 0.009,
+-0.002 0.008,
+-0.002 0.008,
+]
+}
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+-0.039 0.053 0.059,
+-0.039 -0.053 0.059,
+-0.039 -0.006 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.002 0.009,
+-0.002 0.008,
+-0.002 0.008,
+]
+}
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+-0.039 -0.053 0.059,
+-0.053 0.067 0.059,
+-0.039 0.053 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+-0.053 -0.067 0.059,
+-0.039 -0.053 0.059,
+-0.053 0.067 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.002 0.008,
+-0.002 0.008,
+-0.002 0.009,
+]
+}
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+-0.039 -0.053 0.059,
+-0.053 -0.067 0.059,
+0.053 -0.067 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.002 0.008,
+-0.002 0.008,
+-0.001 0.008,
+]
+}
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+-0.053 0.067 0.059,
+-0.039 -0.053 0.059,
+-0.053 -0.067 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+0.053 -0.067 0.059,
+-0.053 -0.067 0.059,
+-0.039 -0.053 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+-0.053 -0.067 0,
+0.053 -0.067 0,
+0.053 -0.067 0.059,
+-0.053 -0.067 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+texCoord TextureCoordinate {
+point [
+0.002 -0,
+0.001 -0,
+0.001 -0.001,
+0.002 -0.001,
+]
+}
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+-0.053 -0.067 0.059,
+0.053 -0.067 0.059,
+0.053 -0.067 0,
+-0.053 -0.067 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.053 -0.067 0,
+0.053 -0.045 0,
+0.053 -0.045 0.006,
+0.053 -0.026 0.006,
+0.053 -0.026 0,
+0.053 0 0,
+0.053 0.026 0,
+0.053 0.026 0.006,
+0.053 0.045 0.006,
+0.053 0.045 0,
+0.053 0.052 0,
+0.053 0.052 0.059,
+0.053 -0.067 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.008 -0,
+-0.008 -0,
+-0.008 -0.001,
+-0.008 -0.001,
+-0.008 -0,
+-0.008 -0,
+-0.008 -0,
+-0.008 -0.001,
+-0.009 -0.001,
+-0.009 -0,
+-0.009 -0,
+-0.009 -0.001,
+-0.008 -0.001,
+]
+}
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.053 -0.067 0.059,
+0.053 0.052 0.059,
+0.053 0.052 0,
+0.053 0.045 0,
+0.053 0.045 0.006,
+0.053 0.026 0.006,
+0.053 0.026 0,
+0.053 0 0,
+0.053 -0.026 0,
+0.053 -0.026 0.006,
+0.053 -0.045 0.006,
+0.053 -0.045 0,
+0.053 -0.067 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+-1
+]
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+0.053 0.052 0.059,
+0.039 0.039 0.059,
+0.053 -0.067 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.001 0.009,
+-0.001 0.009,
+-0.001 0.008,
+]
+}
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+0.053 0.052 0.059,
+0.039 0.039 0.059,
+0.039 0.067 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+0.053 -0.067 0.059,
+0.039 0.039 0.059,
+0.053 0.052 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+0.039 0.006 0.059,
+0.053 -0.067 0.059,
+0.039 0.039 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.001 0.008,
+-0.001 0.008,
+-0.001 0.009,
+]
+}
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+0.039 -0.006 0.059,
+0.053 -0.067 0.059,
+0.039 0.006 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.001 0.008,
+-0.001 0.008,
+-0.001 0.008,
+]
+}
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+0.039 -0.053 0.059,
+0.053 -0.067 0.059,
+0.039 -0.006 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.001 0.008,
+-0.001 0.008,
+-0.001 0.008,
+]
+}
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+-0.039 -0.053 0.059,
+0.053 -0.067 0.059,
+0.039 -0.053 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.002 0.008,
+-0.001 0.008,
+-0.001 0.008,
+]
+}
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+0.039 -0.053 0.059,
+0.053 -0.067 0.059,
+-0.039 -0.053 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+0.039 -0.006 0.059,
+0.053 -0.067 0.059,
+0.039 -0.053 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+0.039 0.006 0.059,
+0.053 -0.067 0.059,
+0.039 -0.006 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+0.039 0.039 0.059,
+0.053 -0.067 0.059,
+0.039 0.006 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.039 0.006 0.059,
+0.039 0.039 0.059,
+0.039 0.039 0.055,
+0.039 0.006 0.055,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+texCoord TextureCoordinate {
+point [
+0.008 -0.001,
+0.009 -0.001,
+0.009 -0.001,
+0.008 -0.001,
+]
+}
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.039 0.006 0.055,
+0.039 0.039 0.055,
+0.039 0.039 0.059,
+0.039 0.006 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.026 0.053 0.055,
+0.039 0.039 0.055,
+0.039 0.006 0.055,
+-0.039 0.006 0.055,
+-0.039 0.053 0.055,
+]
+}
+coordIndex [
+0
+1
+2
+3
+4
+-1
+]
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.039 0.039 0.059,
+0.026 0.053 0.059,
+0.026 0.053 0.055,
+0.039 0.039 0.055,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+texCoord TextureCoordinate {
+point [
+0.007 -0.001,
+0.007 -0.001,
+0.007 -0.001,
+0.007 -0.001,
+]
+}
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+0.039 0.039 0.059,
+0.026 0.053 0.059,
+0.039 0.067 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.039 0.039 0.055,
+0.026 0.053 0.055,
+0.026 0.053 0.059,
+0.039 0.039 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.039 0.006 0.059,
+0.039 0.006 0.059,
+0.039 0.006 0.055,
+-0.039 0.006 0.055,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.002 -0.001,
+-0.001 -0.001,
+-0.001 -0.001,
+-0.002 -0.001,
+]
+}
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+-0.039 0.006 0.059,
+0.039 -0.006 0.059,
+0.039 0.006 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.002 0.008,
+-0.001 0.008,
+-0.001 0.008,
+]
+}
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+0.039 -0.006 0.059,
+-0.039 0.006 0.059,
+-0.039 -0.006 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.001 0.008,
+-0.002 0.008,
+-0.002 0.008,
+]
+}
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+-0.039 -0.006 0.059,
+-0.039 0.006 0.059,
+0.039 -0.006 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+-0.039 0.006 0.059,
+-0.039 -0.006 0.059,
+-0.039 0.053 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+-0.039 -0.006 0.059,
+-0.039 -0.053 0.059,
+-0.039 0.053 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.039 -0.006 0.059,
+-0.039 -0.053 0.059,
+-0.039 -0.053 0.055,
+-0.039 -0.006 0.055,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.008 -0.001,
+-0.008 -0.001,
+-0.008 -0.001,
+-0.008 -0.001,
+]
+}
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.039 -0.006 0.055,
+-0.039 -0.053 0.055,
+-0.039 -0.053 0.059,
+-0.039 -0.006 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+0.039 -0.053 0.055,
+0.039 -0.006 0.055,
+-0.039 -0.006 0.055,
+-0.039 -0.053 0.055,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.001 0.008,
+-0.001 0.008,
+-0.002 0.008,
+-0.002 0.008,
+]
+}
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+-0.039 -0.053 0.055,
+-0.039 -0.006 0.055,
+0.039 -0.006 0.055,
+0.039 -0.053 0.055,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.039 -0.006 0.059,
+-0.039 -0.006 0.059,
+-0.039 -0.006 0.055,
+0.039 -0.006 0.055,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+texCoord TextureCoordinate {
+point [
+0.001 -0.001,
+0.002 -0.001,
+0.002 -0.001,
+0.001 -0.001,
+]
+}
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.039 -0.006 0.055,
+-0.039 -0.006 0.055,
+-0.039 -0.006 0.059,
+0.039 -0.006 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.039 -0.053 0.059,
+0.039 -0.006 0.059,
+0.039 -0.006 0.055,
+0.039 -0.053 0.055,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+texCoord TextureCoordinate {
+point [
+0.008 -0.001,
+0.008 -0.001,
+0.008 -0.001,
+0.008 -0.001,
+]
+}
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.039 -0.053 0.055,
+0.039 -0.006 0.055,
+0.039 -0.006 0.059,
+0.039 -0.053 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE TEX_Blacktop_New
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.039 -0.053 0.059,
+0.039 -0.053 0.059,
+0.039 -0.053 0.055,
+-0.039 -0.053 0.055,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.002 -0.001,
+-0.001 -0.001,
+-0.001 -0.001,
+-0.002 -0.001,
+]
+}
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.039 -0.053 0.055,
+0.039 -0.053 0.055,
+0.039 -0.053 0.059,
+-0.039 -0.053 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.039 0.053 0.055,
+-0.039 0.006 0.055,
+-0.039 0.006 0.059,
+-0.039 0.053 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.039 0.006 0.055,
+0.039 0.006 0.055,
+0.039 0.006 0.059,
+-0.039 0.006 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+0.039 0.006 0.059,
+0.039 -0.006 0.059,
+-0.039 0.006 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+solid TRUE
+coord Coordinate {
+point [
+0.039 0.067 0,
+0.053 0.052 0,
+0.053 0.052 0.059,
+0.039 0.067 0.059,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_FrontColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.053 0.026 0,
+0.053 0.045 0,
+0.053 0.045 0.006,
+0.053 0.026 0.006,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.053 0.026 0.006,
+0.053 0.045 0.006,
+0.053 0.045 0,
+0.053 0.026 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE TEX_Metal_Corrugated_Shiny
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.053 0.026 0.006,
+0.089 0.026 0.006,
+0.089 0.045 0.006,
+0.053 0.045 0.006,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.023 0.252,
+-0.014 0.252,
+-0.014 0.257,
+-0.023 0.257,
+]
+}
+}
+}
+Shape {
+appearance USE TEX_Metal_Corrugated_Shiny
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.053 0.026 0,
+0.089 0.026 0,
+0.089 0.026 0.006,
+0.053 0.026 0.006,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+texCoord TextureCoordinate {
+point [
+0.023 -0.015,
+0.014 -0.015,
+0.014 -0.016,
+0.023 -0.016,
+]
+}
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.053 0.026 0.006,
+0.089 0.026 0.006,
+0.089 0.026 0,
+0.053 0.026 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.053 0.045 0.006,
+0.089 0.045 0.006,
+0.089 0.026 0.006,
+0.053 0.026 0.006,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE TEX_Metal_Corrugated_Shiny
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.089 0.045 0,
+0.053 0.045 0,
+0.053 0.045 0.006,
+0.089 0.045 0.006,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.014 -0.015,
+-0.023 -0.015,
+-0.023 -0.016,
+-0.014 -0.016,
+]
+}
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.089 0.045 0.006,
+0.053 0.045 0.006,
+0.053 0.045 0,
+0.089 0.045 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_FrontColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.053 0.026 0,
+0.089 0.026 0,
+0.089 0.045 0,
+0.053 0.045 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.053 0.045 0,
+0.089 0.045 0,
+0.089 0.026 0,
+0.053 0.026 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE TEX_Metal_Corrugated_Shiny
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.089 0.026 0,
+0.089 0.045 0,
+0.089 0.045 0.006,
+0.089 0.026 0.006,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.252 -0.015,
+-0.257 -0.015,
+-0.257 -0.016,
+-0.252 -0.016,
+]
+}
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.089 0.026 0.006,
+0.089 0.045 0.006,
+0.089 0.045 0,
+0.089 0.026 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_FrontColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.053 -0.026 0,
+0.053 0 0,
+-0.053 0 0,
+-0.053 -0.026 0,
+-0.053 -0.045 0,
+-0.053 -0.067 0,
+0.053 -0.067 0,
+0.053 -0.045 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+4
+5
+6
+7
+-1
+]
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.053 -0.045 0,
+0.053 -0.067 0,
+-0.053 -0.067 0,
+-0.053 -0.045 0,
+-0.053 -0.026 0,
+-0.053 0 0,
+0.053 0 0,
+0.053 -0.026 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+4
+5
+6
+7
+-1
+]
+}
+}
+Shape {
+appearance USE COL_FrontColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.089 -0.045 0,
+-0.053 -0.045 0,
+-0.053 -0.026 0,
+-0.089 -0.026 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE TEX_Metal_Corrugated_Shiny
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.089 -0.045 0,
+-0.053 -0.045 0,
+-0.053 -0.045 0.006,
+-0.089 -0.045 0.006,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+texCoord TextureCoordinate {
+point [
+0.058 -0.015,
+0.049 -0.015,
+0.049 -0.016,
+0.058 -0.016,
+]
+}
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.089 -0.045 0.006,
+-0.053 -0.045 0.006,
+-0.053 -0.045 0,
+-0.089 -0.045 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE TEX_Metal_Corrugated_Shiny
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.089 -0.045 0.006,
+-0.053 -0.045 0.006,
+-0.053 -0.026 0.006,
+-0.089 -0.026 0.006,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.058 0.235,
+-0.049 0.235,
+-0.049 0.24,
+-0.058 0.24,
+]
+}
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.089 -0.026 0.006,
+-0.053 -0.026 0.006,
+-0.053 -0.045 0.006,
+-0.089 -0.045 0.006,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE TEX_Metal_Corrugated_Shiny
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.053 -0.026 0,
+-0.089 -0.026 0,
+-0.089 -0.026 0.006,
+-0.053 -0.026 0.006,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.049 -0.015,
+-0.058 -0.015,
+-0.058 -0.016,
+-0.049 -0.016,
+]
+}
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.053 -0.026 0.006,
+-0.089 -0.026 0.006,
+-0.089 -0.026 0,
+-0.053 -0.026 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE TEX_Metal_Corrugated_Shiny
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.089 -0.026 0,
+-0.089 -0.045 0,
+-0.089 -0.045 0.006,
+-0.089 -0.026 0.006,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+texCoord TextureCoordinate {
+point [
+0.24 -0.015,
+0.235 -0.015,
+0.235 -0.016,
+0.24 -0.016,
+]
+}
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.089 -0.026 0.006,
+-0.089 -0.045 0.006,
+-0.089 -0.045 0,
+-0.089 -0.026 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.089 -0.026 0,
+-0.053 -0.026 0,
+-0.053 -0.045 0,
+-0.089 -0.045 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_FrontColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.053 -0.026 0,
+-0.053 -0.045 0,
+-0.053 -0.045 0.006,
+-0.053 -0.026 0.006,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.053 -0.026 0.006,
+-0.053 -0.045 0.006,
+-0.053 -0.045 0,
+-0.053 -0.026 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_FrontColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.053 -0.045 0,
+0.053 -0.026 0,
+0.053 -0.026 0.006,
+0.053 -0.045 0.006,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.053 -0.045 0.006,
+0.053 -0.026 0.006,
+0.053 -0.026 0,
+0.053 -0.045 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE TEX_Metal_Corrugated_Shiny
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.053 -0.045 0.006,
+0.089 -0.045 0.006,
+0.089 -0.026 0.006,
+0.053 -0.026 0.006,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.023 0.235,
+-0.014 0.235,
+-0.014 0.24,
+-0.023 0.24,
+]
+}
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.053 -0.026 0.006,
+0.089 -0.026 0.006,
+0.089 -0.045 0.006,
+0.053 -0.045 0.006,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE TEX_Metal_Corrugated_Shiny
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.089 -0.026 0,
+0.053 -0.026 0,
+0.053 -0.026 0.006,
+0.089 -0.026 0.006,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.014 -0.015,
+-0.023 -0.015,
+-0.023 -0.016,
+-0.014 -0.016,
+]
+}
+}
+}
+Shape {
+appearance USE COL_FrontColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.053 -0.045 0,
+0.089 -0.045 0,
+0.089 -0.026 0,
+0.053 -0.026 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_FrontColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.053 -0.045 0,
+0.089 -0.045 0,
+0.089 -0.045 0.006,
+0.053 -0.045 0.006,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.053 -0.045 0.006,
+0.089 -0.045 0.006,
+0.089 -0.045 0,
+0.053 -0.045 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE TEX_Metal_Corrugated_Shiny
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.089 -0.045 0,
+0.089 -0.026 0,
+0.089 -0.026 0.006,
+0.089 -0.045 0.006,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+texCoord TextureCoordinate {
+point [
+-0.235 -0.015,
+-0.24 -0.015,
+-0.24 -0.016,
+-0.235 -0.016,
+]
+}
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.089 -0.045 0.006,
+0.089 -0.026 0.006,
+0.089 -0.026 0,
+0.089 -0.045 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.089 -0.026 0.006,
+0.053 -0.026 0.006,
+0.053 -0.026 0,
+0.089 -0.026 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+0.053 -0.026 0,
+0.089 -0.026 0,
+0.089 -0.045 0,
+0.053 -0.045 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.053 0.045 0.006,
+-0.053 0.026 0.006,
+-0.053 0.026 0,
+-0.053 0.045 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.089 0.026 0.006,
+-0.053 0.026 0.006,
+-0.053 0.026 0,
+-0.089 0.026 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE TEX_Metal_Corrugated_Shiny
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.089 0.045 0,
+-0.089 0.026 0,
+-0.089 0.026 0.006,
+-0.089 0.045 0.006,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+texCoord TextureCoordinate {
+point [
+0.257 -0.015,
+0.252 -0.015,
+0.252 -0.016,
+0.257 -0.016,
+]
+}
+}
+}
+Shape {
+appearance USE COL_BackColor
+geometry IndexedFaceSet {
+convex FALSE
+solid TRUE
+coord Coordinate {
+point [
+-0.089 0.045 0.006,
+-0.089 0.026 0.006,
+-0.089 0.026 0,
+-0.089 0.045 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance DEF COL_ForegroundColor Appearance {
+material Material { diffuseColor 0 0 0
+}
+}
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.039 0.067 0.059,
+0.039 0.067 0,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.053 0.067 0.059,
+0.039 0.067 0.059,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.053 0.067 0,
+-0.053 0.067 0.059,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.053 0.067 0,
+0.039 0.067 0,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.053 0.067 0,
+-0.053 0.045 0,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.053 0.045 0,
+-0.053 0.045 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.053 0.045 0,
+-0.053 0.026 0,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.053 0.045 0,
+-0.089 0.045 0,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.089 0.045 0,
+-0.089 0.026 0,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.089 0.045 0,
+-0.089 0.045 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.089 0.045 0.006,
+-0.089 0.026 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.053 0.045 0.006,
+-0.089 0.045 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.053 0.045 0.006,
+-0.053 0.026 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.053 0.026 0,
+-0.053 0.026 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.053 0.026 0,
+-0.053 0 0,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.089 0.026 0,
+-0.053 0.026 0,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.089 0.026 0,
+-0.089 0.026 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.089 0.026 0.006,
+-0.053 0.026 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.053 0 0,
+-0.053 -0.026 0,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.053 0 0,
+0.053 0 0,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.053 -0.026 0,
+0.053 0 0,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.053 -0.026 0,
+0.053 -0.026 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.053 -0.045 0,
+0.053 -0.026 0,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.053 -0.067 0,
+0.053 -0.045 0,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.053 -0.067 0,
+0.053 -0.067 0.059,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.053 -0.067 0,
+0.053 -0.067 0,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.053 -0.045 0,
+-0.053 -0.067 0,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.053 -0.045 0,
+-0.053 -0.045 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.053 -0.045 0,
+-0.089 -0.045 0,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.053 -0.026 0,
+-0.053 -0.045 0,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.053 -0.026 0,
+-0.053 -0.026 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.089 -0.026 0,
+-0.053 -0.026 0,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.089 -0.026 0,
+-0.089 -0.026 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.089 -0.045 0,
+-0.089 -0.026 0,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.089 -0.045 0,
+-0.089 -0.045 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.053 -0.045 0.006,
+-0.089 -0.045 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.053 -0.026 0.006,
+-0.053 -0.045 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.089 -0.026 0.006,
+-0.053 -0.026 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.089 -0.045 0.006,
+-0.089 -0.026 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.053 -0.067 0,
+-0.053 -0.067 0.059,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.053 0.067 0.059,
+-0.053 -0.067 0.059,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.053 -0.067 0.059,
+0.053 -0.067 0.059,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.053 -0.067 0.059,
+0.053 0.052 0.059,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.053 0.052 0.059,
+0.053 0.052 0,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.039 0.067 0.059,
+0.053 0.052 0.059,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.053 0.052 0,
+0.053 0.045 0,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.039 0.067 0,
+0.053 0.052 0,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.053 0.045 0,
+0.053 0.045 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.053 0.026 0,
+0.053 0.045 0,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.053 0 0,
+0.053 0.026 0,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.053 0.026 0,
+0.053 0.026 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.089 0.026 0,
+0.053 0.026 0,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.089 0.026 0,
+0.089 0.026 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.089 0.045 0,
+0.089 0.026 0,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.089 0.045 0,
+0.089 0.045 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.053 0.045 0,
+0.089 0.045 0,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.089 0.045 0.006,
+0.089 0.026 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.053 0.045 0.006,
+0.089 0.045 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.053 0.026 0.006,
+0.053 0.045 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.089 0.026 0.006,
+0.053 0.026 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.053 -0.045 0,
+0.053 -0.045 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.053 -0.045 0,
+0.089 -0.045 0,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.089 -0.045 0,
+0.089 -0.045 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.089 -0.045 0,
+0.089 -0.026 0,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.089 -0.026 0,
+0.089 -0.026 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.089 -0.026 0,
+0.053 -0.026 0,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.089 -0.045 0.006,
+0.089 -0.026 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.053 -0.045 0.006,
+0.089 -0.045 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.053 -0.045 0.006,
+0.053 -0.026 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.089 -0.026 0.006,
+0.053 -0.026 0.006,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.039 -0.053 0.059,
+-0.039 -0.006 0.059,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.039 -0.053 0.059,
+-0.039 -0.053 0.059,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.039 -0.006 0.059,
+0.039 -0.053 0.059,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.039 -0.006 0.059,
+-0.039 -0.006 0.059,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.039 -0.006 0.059,
+0.039 -0.006 0.055,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.039 -0.006 0.055,
+-0.039 -0.006 0.055,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.039 -0.006 0.055,
+0.039 -0.053 0.055,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.039 -0.053 0.059,
+0.039 -0.053 0.055,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.039 -0.053 0.055,
+-0.039 -0.053 0.055,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.039 -0.053 0.059,
+-0.039 -0.053 0.055,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.039 -0.053 0.055,
+-0.039 -0.006 0.055,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.039 -0.006 0.059,
+-0.039 -0.006 0.055,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.039 0.006 0.059,
+-0.039 0.006 0.059,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.039 0.039 0.059,
+0.039 0.006 0.059,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.026 0.053 0.059,
+0.039 0.039 0.059,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.039 0.053 0.059,
+0.026 0.053 0.059,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.039 0.006 0.059,
+-0.039 0.053 0.059,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.039 0.006 0.059,
+-0.039 0.006 0.055,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.039 0.006 0.055,
+-0.039 0.053 0.055,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.039 0.006 0.055,
+-0.039 0.006 0.055,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.039 0.039 0.055,
+0.039 0.006 0.055,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.039 0.039 0.059,
+0.039 0.039 0.055,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.026 0.053 0.055,
+0.039 0.039 0.055,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.039 0.053 0.055,
+0.026 0.053 0.055,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ -0.039 0.053 0.059,
+-0.039 0.053 0.055,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.026 0.053 0.059,
+0.026 0.053 0.055,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Shape {
+appearance USE COL_ForegroundColor
+geometry IndexedLineSet {
+coord Coordinate {
+point [ 0.039 0.006 0.059,
+0.039 0.006 0.055,
+]
+}
+coordIndex [ 0 1 -1]
+}
+}
+Viewpoint {
+position -0.131 -0.407 0.66
+orientation 0.909856 -0.137377 -0.391523 0.736136
+fieldOfView 0.61087
+description "Camera"
+jump FALSE
+}
