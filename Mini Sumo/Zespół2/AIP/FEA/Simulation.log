@@ -1,0 +1,41 @@
+﻿Uruchomiono symulację Symulacja:1: 2013-10-14, 19:33:19
+Liczba konfiguracji: 1
+Siatka domyślna: Elementy 59510, Węzły 99958
+Model dzieli się na następującą liczbę niezależnych komponentów: 3
+Czas rozwiązania 1s
+Osiągnięto całkowitą liczbę wygładzeń h 
+Zakończono symulację Symulacja:1: 2013-10-14, 19:33:45
+Czas całkowity 0:00:26
+
+Uruchomiono symulację Symulacja:1: 2013-10-14, 19:35:32
+Liczba konfiguracji: 1
+Siatka domyślna: Elementy 59510, Węzły 99958
+Model dzieli się na następującą liczbę niezależnych komponentów: 3
+Czas rozwiązania 1s
+Osiągnięto całkowitą liczbę wygładzeń h 
+Zakończono symulację Symulacja:1: 2013-10-14, 19:35:37
+Czas całkowity 0:00:05
+
+Uruchomiono symulację Symulacja:1: 2013-10-14, 19:38:18
+Liczba konfiguracji: 1
+Siatka domyślna: Elementy 59510, Węzły 99958
+Model dzieli się na następującą liczbę niezależnych komponentów: 3
+Dodano miękką sprężynę
+Odkształcenie jest zbyt duże w stosunku rozmiaru modelu. Sprawdź, czy ustawienia obciążenia i wiązań zostały odpowiednio wyskalowane.
+Czas rozwiązania 5s
+Wskaźnik zbieżności: 50%
+Osiągnięto całkowitą liczbę wygładzeń h 
+Zakończono symulację Symulacja:1: 2013-10-14, 19:38:27
+Czas całkowity 0:00:08
+
+Uruchomiono symulację Symulacja:1: 2013-10-14, 19:42:16
+Liczba konfiguracji: 1
+Siatka domyślna: Elementy 59510, Węzły 99958
+Model dzieli się na następującą liczbę niezależnych komponentów: 3
+Dodano miękką sprężynę
+Czas rozwiązania 8s
+Wskaźnik zbieżności: 50%
+Osiągnięto całkowitą liczbę wygładzeń h 
+Zakończono symulację Symulacja:1: 2013-10-14, 19:42:27
+Czas całkowity 0:00:11
+
